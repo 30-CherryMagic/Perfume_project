@@ -1,0 +1,23 @@
+.headpic {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true");
+  background-size: cover;
+  padding-top: 16.8%;
+  padding-bottom: 16.8%;
+}
+
+.Gabrielle {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true");
+}
+
+.Gingembre {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true");
+}
+
+.CHANEL {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true");
+}
+
+.training {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true");
+}
+/*# sourceMappingURL=homepage.css.map */

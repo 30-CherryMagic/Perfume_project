@@ -1,0 +1,172 @@
+.container
+    max-width: 1168px
+        
+
+.store,.user,.heart,.cart
+    +mobile
+        display: none
+
+
+.mobile_cart,.mobile_bars
+    display: none
+    +mobile
+        display: block
+        span
+            width: 24px
+            height: 24px
+
+.mobile_cart:before
+    content: '3'
+    text-align: center
+    font-size: 3px
+    width: 15px
+    height: 15px
+    border-radius: 7.5px  
+    color: #FFF
+    display: block
+    position: absolute
+    right: -1px
+    top: -5px
+    background-color: #916019
+    z-index: 1
+
+.headpic
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true")
+    background-size: cover
+    width: 100%
+    padding-top: 16.8%
+    padding-bottom: 16.8%
+      
+.w-81
+    width: 81%
+    +mobile
+        width: 100%
+        margin: 0 auto
+        
+.w-61
+    width: 63%
+    +mobile
+        width: 100%
+        margin: 0 auto
+
+
+.Gabrielle
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true")
+    +pic_replace_word
+    padding-top: 50%
+    +mobile
+        padding-top: 100%
+.Gingembre
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true")
+    +pic_replace_word
+    padding-top: 50%
+    +mobile
+        padding-top: 100%
+    
+.CHANEL
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true")
+    +pic_replace_word
+    padding-top: 50%
+    +mobile
+        padding-top: 100%
+.training
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true")
+    +pic_replace_word
+    padding-top: 98.2%
+
+.content_width
+    padding-right: 9.5%
+    padding-left: 9.5%
+    margin: 0px
+    +mobile
+        padding-left: 0px
+        padding-right: 0px
+        margin-top: 8px
+        margin-bottom: 32px
+
+
+
+.products
+    padding-top: 2.1%
+    padding-bottom: 2.1%
+    margin-top: 4%
+    background-color: #E0E0E0
+    +mobile
+        padding-top: 6.6%
+
+.product_pic
+    padding-top: 100%
+    padding-bottom: 47.2%
+    
+
+.Poppy_Barley
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true")
+    +pic_replace_word
+    
+.Body_Wash
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index7.jpg?raw=true")
+    +pic_replace_word
+
+.Apple_Cider_Vinegar_Capsule
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index8.jpg?raw=true")
+    +pic_replace_word
+    
+li,ul
+    position: relative
+
+.available
+    font-size: 0    
+
+.sold-out
+    font-size: 24px
+    color: #fff
+    font-weight: 900
+    display: flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    background-color: rgba(#000 ,0.5 )
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 10
+     
+    
+
+.Recycling_info_area
+    padding-top: 3.5%
+    padding-bottom: 3.5%
+    +mobile
+        padding-top: 8%
+        padding-bottom: 8%
+        h3
+            margin-top: 8px
+
+.Bottle_Recycling
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index9.jpg?raw=true")
+    background-repeat: no-repeat
+    background-size: cover
+    padding-top: 71.2%
+
+.subscribe
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    padding-top: 7.8%
+    padding-bottom: 7.8%
+
+
+footer
+    padding-top: 1%
+    padding-bottom: 1%
+    background-color: #916000
+    .links
+        +mobile
+            display: none
+
+
+.logo_white
+    width: 128px
+    height: 38px
