@@ -1,11 +1,20 @@
-■ Design by: hexschool (CC-BY)
+■ Design by: hexschool (CC-BY) 
 ■ Code by: PENG,HSIAO-LI
 ■ Page: 2 pages (homepage/product)
+<<<<<<< HEAD
 ■ Production Time: 18hours
+=======
+>>>>>>> a22cc8a032d5e9a1dff20c11a396040d66b8a130
 ■ CSS Preprocessor: sass
 ■ HTML Preprocessor: none
 ■ Bootstrap version: 5
 ■ Responsive Web Design: with two breakpoints
 ■ CSS reset:"http://meyerweb.com/eric/tools/css/reset/"(v2.0|20110126) License: none (public domain)
+<<<<<<< HEAD
 ■ View in Codepen: not available
 ■ View Design Draft: "https://xd.adobe.com/view/dc5ebe5c-3e56-4981-a010-158b5ded0e72-890d/"
+=======
+■ Production Time: 18hours
+■ View in Codepen: not available
+■ View Design Draft: "https://xd.adobe.com/view/dc5ebe5c-3e56-4981-a010-158b5ded0e72-890d/"
+>>>>>>> a22cc8a032d5e9a1dff20c11a396040d66b8a130
